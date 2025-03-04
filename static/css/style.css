@@ -1,0 +1,70 @@
+/* static/css/style.css */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.card-footer {
+    border-radius: 0 0 15px 15px !important;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.badge {
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.contribution-bar {
+    height: 12px;
+    border-radius: 6px;
+    margin-top: 3px;
+}
+
+.feature-item {
+    margin-bottom: 10px;
+}
+
+.feature-value {
+    font-weight: 600;
+}
+
+/* 增加表单焦点样式 */
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* 增加悬停效果 */
+.btn-primary:hover {
+    background-color: #0a58ca;
+    border-color: #0a53be;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+/* 增加卡片阴影效果 */
+.card.shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.3s ease;
+}
+
+.card.shadow-lg:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
